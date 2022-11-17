@@ -18,15 +18,15 @@ You may not be able to run the part of the code where there is a transliteration
 Here are the instructions to install this package and then proceed with the rest of the run:
 
 Clone the repository:
-git clone https://github.com/libindic/indic-trans.git
-------------------------OR--------------------------
-git clone https://github.com/irshadbhat/indictrans.git
+'git clone https://github.com/libindic/indic-trans.git
+'------------------------OR--------------------------
+'git clone https://github.com/irshadbhat/indictrans.git
 Change to the cloned directory:
-<code>
-cd indic-trans
-pip install -r requirements.txt
-python install .
-</code>
+
+'cd indic-trans
+'pip install -r requirements.txt
+'python install .
+
 Note that this has a Microsoft VC++ Executable version dependency and works only a specific machine where I had to use Windows 10 with the installable
 
 If you want to skip this part, you can directly proceed to the heading in the Jupyter Notebook: "## Read the processed data back to a dataframe"
