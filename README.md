@@ -18,14 +18,26 @@ You may not be able to run the part of the code where there is a transliteration
 Here are the instructions to install this package and then proceed with the rest of the run:
 
 Clone the repository:
-'git clone https://github.com/libindic/indic-trans.git
-'------------------------OR--------------------------
-'git clone https://github.com/irshadbhat/indictrans.git
+
+<code>
+git clone https://github.com/libindic/indic-trans.git
+
+or
+  
+git clone https://github.com/irshadbhat/indictrans.git
+
+</code>
+
 Change to the cloned directory:
 
-'cd indic-trans
-'pip install -r requirements.txt
-'python install .
+<code>
+cd indic-trans
+  
+pip install -r requirements.txt
+  
+python install .
+  
+</code>
 
 Note that this has a Microsoft VC++ Executable version dependency and works only a specific machine where I had to use Windows 10 with the installable
 
